@@ -7,19 +7,11 @@ module.exports = {
     path: __dirname + '/build',
     filename: '[name].js'
   },
-  resolveLoader: {
-    alias: {
-      'hyperscript-loader': require.resolve('..')
-    }
-  },
   module: {
     loaders: [
       {
         test: /\.css$/,
-        loaders: [
-          'hyperscript-loader?h=react-hyperscript',
-          'css/locals?modules'
-        ]
+        loader: require.resolve('..') + '?h=react-hyperscript!css/locals?modules'
       }
     ]
   }
