@@ -4,7 +4,7 @@
 
 <a href="https://travis-ci.org/dtinth/hyperstyles-loader"><img src="https://img.shields.io/travis/dtinth/hyperstyles-loader.svg" width="100%" alt="travis"></a>
 
-<a href="https://www.npmjs.com/package/hyperstyles-loader"><img src="https://img.shields.io/npm/v/npm.svg" width="100%" alt="npm"></a>
+<a href="https://www.npmjs.com/package/hyperstyles-loader"><img src="https://img.shields.io/npm/v/hyperstyles-loader.svg" width="100%" alt="npm"></a>
 
 I’ve been using [hyperscript in place of JSX](https://medium.com/@jador/jsx-4b978fbeb290). The problem is that it’s so verbose to use with CSS modules.
 
