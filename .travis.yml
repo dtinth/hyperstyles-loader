@@ -1,3 +1,11 @@
 language: node_js
 node_js:
 - '5'
+deploy:
+  provider: npm
+  email: org.yi.dttvb@gmail.com
+  api_key:
+    secure: Wbey3+cRlFgxhP3sVUtGgS7jjJTdUBxp7Ty6jxPbQ0hqiU2fRZ3n0toK/hng+bP3n1reM3ZhgVkZ/TplhPL9s/Y7OaLY9gOkNrDLq/IqCmjVhwaYlwWcnJs4oRjuBhbEKsW4Yx8c3kXWGiUzTf8gBR+lR8A2R8sWFIaV7XfWDZ7WbX7wNYeZpVdH7rygzMlWukCa7E8YQzWuk6kf2qBOVVHht94c6p1M7b5dMFlSoKUwJ5pF7Rt4m8Nr7omQGZDgtun6WGh9TWm/3Q8w6RmHX9u0fvLcNEcc6LFLgCOd3uM653zWMhWra84Rdy9Hi6NVAFw2fnOFwsokmbBVHAJkwjQptZpiAK9LmHPplA3BNO6v+xMQNRu6funWIKcD2NnFe5KGxYRB+EDq/METwk4+xBNg5tYH+YpZBHp9hBh/3qDXiPMBEPhWAFVg2oN/HL7hoHL8Cyt005w0I8PXLK/LnLBf2RTr7MjueF5e8Fv4rCTuQ8PNSafVVvucB8tymvmxjkJZ/nYwbqM2OKoKEVRGsB/FJ4uKxCAz63DNNsvgEDeoAxYsYeI8MzHEcaQkcNgW+iI4Wm2tMqiuQLqvrc0JIeKVIq092gvzGuGtRcdd4dC63IFInICt9NLc/DB2ocmhxt1m58nn06XsuxZpy8HQKCia+t8CDhBw3YM7Exbu+94=
+  on:
+    tags: true
+    repo: dtinth/hyperstyles-loader
