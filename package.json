@@ -1,0 +1,20 @@
+{
+  "name": "hyperstyles-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash test.sh"
+  },
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "hyperstyles": "^3.3.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-hyperscript": "^2.2.2",
+    "standard": "^6.0.8",
+    "style-loader": "^0.13.1"
+  }
+}
